@@ -12,7 +12,7 @@ Für den Server habe ich auf meinem Proxmox-Server einen LXC-Container erstellt 
 
 Als Verwaltungsoberfläche habe ich **mcsManager** installiert und darüber einen Paper-Server im Vanilla-Stil erstellt. Der Server lief im Whitelist-Modus, sodass nur freigeschaltete Spieler beitreten konnten.
 
-Damit wir auch von außerhalb unseres Netzwerks auf den Server zugreifen konnten, habe ich in meiner FRITZ!Box eine Portfreigabe für **TCP-Port 25565** auf den LXC-Container eingerichtet. Zusätzlich habe ich eine DuckDNS-Domain eingerichtet und einen Cronjob erstellt, der die öffentliche IP-Adresse automatisch bei DuckDNS aktualisiert.
+Damit wir auch von außerhalb unseres Netzwerks auf den Server zugreifen konnten, habe ich in den FRITZ!Box Einstellungen eine Portfreigabe für **TCP-Port 25565** auf den LXC-Container eingerichtet. Zusätzlich habe ich eine DuckDNS-Domain geholt und einen Cronjob erstellt, der die öffentliche IP-Adresse automatisch bei DuckDNS aktualisiert.
 
 ## Experimente
 
